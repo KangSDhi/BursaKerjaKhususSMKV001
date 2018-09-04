@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.sinon.bursakerjakhusussmk.TentangAplikasi">
+
+    <Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary">
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tentang Aplikasi"
+                android:textSize="20sp"
+                android:textColor="@android:color/white"
+                android:gravity="center_horizontal"/>
+
+    </Toolbar>
+
+    <TextView
+            android:id="@+id/textJudul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/app_name"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginTop="80dp"
+            android:textColor="@android:color/black"/>
+
+    <ImageView
+            android:id="@+id/logoSMK"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="120dp"
+            android:src="@drawable/logo_stm"
+            />
+
+    <TextView
+            android:id="@+id/text1"
+            android:textSize="16sp"
+            android:text="Tim Pengembang Aplikasi :"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/logoSMK"
+            android:textColor="@android:color/black"/>
+
+    <TextView
+            android:id="@+id/textTimPengembang"
+            android:layout_marginTop="8dp"
+            android:layout_below="@id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:gravity="center_horizontal"
+            android:text="Otong dan Kawan-kawan\nVersi 0.1 Beta"/>
+
+    <Button
+            android:id="@+id/btnValidasiDigital"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="Validasi Digital"
+            android:textColor="@android:color/white"
+            android:background="@drawable/background_oval"
+            android:layout_margin="8dp"/>
+
+</RelativeLayout>

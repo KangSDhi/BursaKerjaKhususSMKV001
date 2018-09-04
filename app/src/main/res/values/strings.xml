@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Bursa Kerja Khusus SMK</string>
+    <string name="title_activity_dasbor">Dasbor</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Tentang Aplikasi</string>
+    <string name="halaman_riwayat_pendaftaran">Halaman Riwayat Pendaftaran</string>
+
+    <string-array name="jenis_kelamin">
+        <item>Laki-laki</item>
+        <item>Perempuan</item>
+        <item>Tidak Diketahui</item>
+    </string-array>
+
+</resources>
